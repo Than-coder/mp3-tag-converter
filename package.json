@@ -1,0 +1,16 @@
+{
+  "name": "mp3_font_converter",
+  "version": "1.0.0",
+  "description": "mp3 tag zawgyi to unicode converter",
+  "main": "app.js",
+  "scripts": {
+    "convert:metadata": "node app",
+    "convert:file_name": "node fileNameConverter.js",
+    "convert:song_title_to_filename": "node metaNameToFileName.js"
+  },
+  "author": "than",
+  "license": "ISC",
+  "dependencies": {
+    "ffmetadata": "^1.5.0"
+  }
+}
