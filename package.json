@@ -5,13 +5,8 @@
   "main": "app.js",
   "scripts": {
     "convert:metadata": "node app",
-<<<<<<< HEAD
-    "convert:file_name": "node fileNameConverter.js",
-    "convert:song_title_to_filename": "node metaNameToFileName.js"
-=======
-    "convert:file_name":"node fileNameConverter.js",
-    "convert:song_title_to_filename":"node metaNameToFileName.js"
->>>>>>> 6e165008d36298beba20b423f3c890db2e1a3f62
+    "convert:file-name": "node fileNameConverter.js",
+    "convert:song-title-to-filename": "node metaNameToFileName.js"
   },
   "author": "than",
   "license": "ISC",
